@@ -1,0 +1,38 @@
+#Type in the full filepath for a folder with the .gitignore file as the root directory
+
+#If something needs to be ignored but it has alread been added, follow the steps below:
+
+#cd ~/documents/sophies
+#git rm -r --cached .
+
+#git add .
+
+#(didnt need for me but maybe after  a few versions commited) git reset HEAD
+
+
+
+#Folders
+
+/Library
+/Temp
+/Builds
+
+
+
+#Project
+/User Preference Files
+*.sln
+*.csproj
+*.pidb
+*.userprefs
+*.user
+*.suo
+
+
+
+#OS Junk
+
+Thumbs.db
+.DS_Store*
+ehthumbs.db
+Icon7

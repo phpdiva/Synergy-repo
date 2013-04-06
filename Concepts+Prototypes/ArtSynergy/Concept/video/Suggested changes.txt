@@ -1,0 +1,22 @@
+Overall verdict = Awesome! Here are some improvments if you can:
+
+Change teh colour of the dandelion or the tipping plants so their differnt mechanis are understood.
+
+Instead of tiping plants exploding into lots of particles like the dandelion. have just two parts (seeds) fall out.
+Time their decent so when they hit the floor the effect you already have of them resprouting plays.The decay effect is perfect.
+
+The stones are too long. They should be as wide as teh character and the space between them should be as wide as they are. THis is to mkae it like an obstacle where they ahvew ot jump on the stones to avoid touching and killing the grass.
+My lack of grid squares would have made that unlcear before, sorry!
+
+For the charachter, take a painintg of a man and then smudger it into an unrecognisable ball. This wil make the colours and their percentages correct.
+
+Tree idea for ledges is excellent.
+
+Svenja pointed out that its not clear the dandelions are restoring the damage. Two ideas for that-
+Make the dead grass far darker and uglier. 
+Om level one where they learn about that mechanic, make the groun he is standing on after the dandelion also turn balck, only to turn green again as the last few particles hit it as he passes.
+
+By making this obvious in level one, they will know to look out for it. By chanign gthe tipping plant colour(or the dandelion) and taking awya the tippoing plant exploding part, the two mechanics will have more unique identity which will also help makie the restoring dandlions role more clear.
+
+Character should stop at entracne or dissapear inside to amke clear that it is his goal and not just decoration.
+

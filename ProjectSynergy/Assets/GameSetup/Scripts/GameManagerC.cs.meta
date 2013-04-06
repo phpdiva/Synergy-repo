@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f32be1aa4f1850f4c9a2fdbdfa5260b9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - MusicManagerPrefab: {fileID: 100000, guid: e794ea7abae7e764fbda4e31cfb50741, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,90 @@
+Images can vary in size as they will be sprte ATLAS not sprite SHEET.
+.png format required.
+
+
+###################
+Using TexturePacker
+###################
+Where directions are not specified, use defaults.
+
+- Drag folder into sprites window on the right hand side of software.
+Note: The folder structure of the images is retained.
+
+- Data format = Cocos2d
+
+- Data file = Where ever you want to save it and whatever you want to call it.
+
+- Change the end of data file from .plist to .xml
+
+- Dithering = Nearest neighbour.
+Note: Use FloydSteinberg+Alpha if spriteatlas quality looks low in the preview 
+window
+
+- Autosize = true
+
+- Algorithm = Basic
+
+- Sort by = name i am guessing. WHatever puts them in order of the aniamtions.
+
+- border padding = 1
+
+- shape padding = 1
+
+- Trim = false
+
+- Enable auto-alias = false
+
+- Click publish button
+
+- Go to destination save path to find .xml file and spriteAtlas
+
+
+
+
+################################################
+Unity sprite sheet and animation object creation
+################################################
+
+- Add the spriteAtlas from TexturePacker and the xml file to appropriate 
+  project view folder
+
+- Add SpriteAtlas-Cocos2D to Hierarchy
+
+- Go to container and find added object called "name"(id47). Rename it.
+
+- Add spriteAtlas.png to texture. Add .xml file to Atlas data file
+
+- Fill in sheet size (size of sprite sheet as a whole)
+
+- Add Animation to Hierarchy.
+
+- Go to Anaimtions and find added object called "name"(id47). Rename it.
+
+- Change frame sets size to number of anamaitons in the sprite sheet.
+
+- Name the aniamtion ie "Climb"
+
+- Drag and drop SpriteAtals into container.
+
+- Set frame number anamation starts
+
+- Set frame number anamation ends
+
+- Go to the top of script just under the name and set FPS
+
+- Set duration
+
+
+#####################################
+Assign the new animation to an object
+#####################################
+
+Check  http://www.wyrmtale.com/orthello/sprites to decide which Object to use.
+
+
+
+
+
+
+
+
