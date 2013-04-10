@@ -16,10 +16,10 @@
                 <key>sourceSize</key>
                 <string>{90,156}</string>
             </dict>
-            <key>058_16Front.png</key>
+            <key>058_16FrontNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{92,1},{510,38}}</string>
+                <string>{{91,1},{510,38}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -29,10 +29,10 @@
                 <key>sourceSize</key>
                 <string>{510,38}</string>
             </dict>
-            <key>059_17Front.png</key>
+            <key>059_17FrontNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,158},{510,34}}</string>
+                <string>{{1,157},{510,34}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -42,10 +42,10 @@
                 <key>sourceSize</key>
                 <string>{510,34}</string>
             </dict>
-            <key>060_18Front.png</key>
+            <key>060_18FrontNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{512,158},{510,47}}</string>
+                <string>{{511,157},{510,47}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -55,10 +55,10 @@
                 <key>sourceSize</key>
                 <string>{510,47}</string>
             </dict>
-            <key>061_19Front.png</key>
+            <key>061_19FrontNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,206},{510,60}}</string>
+                <string>{{1,204},{510,60}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -68,10 +68,10 @@
                 <key>sourceSize</key>
                 <string>{510,60}</string>
             </dict>
-            <key>062_20Front.png</key>
+            <key>062_20FrontNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{512,206},{510,58}}</string>
+                <string>{{511,204},{510,58}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -81,10 +81,10 @@
                 <key>sourceSize</key>
                 <string>{510,58}</string>
             </dict>
-            <key>063_13Back.png</key>
+            <key>063_13BackNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,267},{510,214}}</string>
+                <string>{{1,264},{510,214}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -94,10 +94,10 @@
                 <key>sourceSize</key>
                 <string>{510,214}</string>
             </dict>
-            <key>064_14Back.png</key>
+            <key>064_14BackNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{512,267},{510,258}}</string>
+                <string>{{511,264},{510,258}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -107,10 +107,10 @@
                 <key>sourceSize</key>
                 <string>{510,258}</string>
             </dict>
-            <key>065_15Back.png</key>
+            <key>065_15BackNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,526},{510,383}}</string>
+                <string>{{1,522},{510,383}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -120,10 +120,10 @@
                 <key>sourceSize</key>
                 <string>{510,383}</string>
             </dict>
-            <key>066_16Back.png</key>
+            <key>066_16BackNew.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{512,526},{510,383}}</string>
+                <string>{{511,522},{510,383}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -143,8 +143,9 @@
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:bde3338fa556025128c46a1ad03125c5$</string>
+            <string>$TexturePacker:SmartUpdate:400c14f5a251117a2a9c98c536f58cd5$</string>
             <key>textureFileName</key>
             <string>Synergy5.png</string>
         </dict>
     </dict>
+
