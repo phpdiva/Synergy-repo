@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
     <dict>
         <key>frames</key>
         <dict>
@@ -1880,12 +1881,13 @@
             <key>format</key>
             <integer>2</integer>
             <key>realTextureFileName</key>
-            <string>Synergy1.png</string>
+            <string>BSynergy1.png</string>
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:b061334e21390f5bf0de9ad38657b338$</string>
+            <string>$TexturePacker:SmartUpdate:6e3b5cd4bc7febbf3887591f001e7625$</string>
             <key>textureFileName</key>
-            <string>Synergy1.png</string>
+            <string>BSynergy1.png</string>
         </dict>
     </dict>
+
