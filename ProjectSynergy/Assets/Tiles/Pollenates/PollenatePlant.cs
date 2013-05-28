@@ -27,10 +27,13 @@ public class PollenatePlant : MonoBehaviour
                     player.pollenatedPlantName = gameObject.transform.parent.name;                                      //set the nametag so player knows whose pollen is attached
                     //make player covered in seed
                     playerVisited = true;           //required as well as the anme as teh name will be set to "" after both ahve been used but the plant cant be used ever again.
-                }
+                	player.transform.Find("PollenParticles").GetComponent<ParticleSystem>().Play();
+					this.transform.parent.Find("PollenHeadParticles").GetComponent<ParticleSystem>().Stop();
+				}
 
                 else if (player.pollenatedPlantName == gameObject.transform.parent.name)                 //if it has a name, check its the same plant type by checking anme, then do stuff
                 {
+					player.transform.Find("PollenParticles").GetComponent<ParticleSystem>().Stop();
                     audio.PlayOneShot(RootGrowSFX);
                     //play sound
                     LevelManager.levelManager.healingFinished = false;

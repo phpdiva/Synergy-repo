@@ -153,7 +153,6 @@ public class Player : MonoBehaviour
 
     private void PlayerAnimate()
     {
-
         //animateSprite.PlayAnimation("DiagonalJump");
         ////Animate  idle
         if (velocity.x == 0 || freezePlayer == true)
