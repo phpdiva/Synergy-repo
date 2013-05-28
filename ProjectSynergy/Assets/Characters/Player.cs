@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         animateSprite = gameObject.GetComponent<AnimateSprite>();
-    }
+	}
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
