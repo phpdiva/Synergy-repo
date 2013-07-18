@@ -59,7 +59,7 @@ public class MusicManager : MonoBehaviour
 		
 		// AD: Testing Fabric timeline parameters.
 		// @todo: Send proper values here.
-		Fabric.EventManager.Instance.SetParameter("Simple", "Destruction", 0.1f);
+		Fabric.EventManager.Instance.SetParameter("Simple", "Destruction", 0.5f);
     }
 
     private void Update()
