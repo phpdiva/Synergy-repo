@@ -20,7 +20,7 @@ public class MusicManager : MonoBehaviour
     [HideInInspector]
     public int newTrackNumber = 0;//Wont play this as its = currentTrackNumber. urlLsit[0] will be blank representing the 1st sonf that comes with the game
 	[HideInInspector]
-	public int currentScene = 0; // Current scene/level number.
+	public int currentScene = 0; // Current scene/level number. @todo: Do we need this?
     //private int currentTrackNumber = 0;//not set yet
     //public WWW www;
     private int trackNumber = 1;
@@ -57,31 +57,50 @@ public class MusicManager : MonoBehaviour
 		
 		// AD: Using Fabric instead.
 		// @todo: Rename event to something self-explanatory.
-		Fabric.EventManager.Instance.PostEvent("Simple");
+		Fabric.EventManager.Instance.PostEvent("MainMusic");
 		
 		// AD: Testing Fabric timeline parameters.
 		// @todo: Send proper values here.
-		Fabric.EventManager.Instance.SetParameter("Simple", "Destruction", 0.5f);
+		//Fabric.EventManager.Instance.SetParameter("Simple", "Destruction", 0.5f);
+		
+		//Debug.Log("Start!");
     }
-
+	
+	/**
+	 * When a new level is loaded, switch music.
+	 */
+    void OnLevelWasLoaded(int level)
+	{
+        Fabric.EventManager.Instance.SetParameter("MainMusic", "Scene", level);
+		
+		switch (level)
+		{
+		case 0:
+			//Debug.Log("level 0");
+	        break;
+			
+		case 1:
+			Fabric.EventManager.Instance.PostEvent("Melody1");
+			//Debug.Log("level 1");
+			break;
+		
+	    case 2:
+			Fabric.EventManager.Instance.PostEvent("Melody1", Fabric.EventAction.AdvanceSequence);
+			//Debug.Log("level 2");
+			break;
+			
+	    case 3:
+			//Fabric.EventManager.Instance.PostEvent("NextMelody");
+			//Debug.Log("level 2");
+			break;
+		}
+    }
+	
     private void Update()
     {
 	    // AD: Which level are we on?
+		// @todo: Do we need this?
 	    currentScene = Application.loadedLevel;
-	    //Debug.Log(currentScene);
-		
-		switch (currentScene)
-		{
-		case 0:
-			Fabric.EventManager.Instance.SetParameter("Simple", "Scene", 0.0f);
-			break;
-		case 1:
-		case 2:
-			Fabric.EventManager.Instance.SetParameter("Simple", "Scene", 6.0f);
-			break;
-		}
-			
-	    
 		
         //if (audio.isPlaying == false)
         //{

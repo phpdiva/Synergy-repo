@@ -48,7 +48,7 @@ public class EventManager : MonoBehaviour
     }
 
     private void LevelEvents()
-    {
+    {	
         switch (Application.loadedLevel)
         {
             case 0:
